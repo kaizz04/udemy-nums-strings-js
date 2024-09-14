@@ -8,5 +8,9 @@ function randomIntBetween(max, min){
     return Math.random() * (max - min) + min;
 }
 
-console.log(randomIntBetween(10,5));
+// console.log(randomIntBetween(10,5));
+
+const emailRegex = /^\S+@\S+\.\S+$/;
+// console.log(emailRegex.test('testEmail'));
+// console.log(emailRegex.test('test07@gmail.com'));
 
